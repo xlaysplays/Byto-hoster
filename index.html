@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Byto Hoster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 Byto Hoster</h1>
+    <p>Host your own Discord bot in 1 click!</p>
+
+    <a id="login" href="#">🔗 Login with Discord</a>
+
+    <div id="bot-form" class="hidden">
+      <h2>Create Your Bot</h2>
+      <form id="createForm">
+        <label>Bot Name:</label><br>
+        <input type="text" id="botName" required><br><br>
+
+        <label>Script Type:</label><br>
+        <input type="text" value="Node.js" disabled><br><br>
+
+        <label>Location:</label><br>
+        <select id="location">
+          <option value="uk">UK</option>
+        </select><br><br>
+
+        <button type="submit">🚀 Create Bot</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
+  
